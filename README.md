@@ -1,5 +1,9 @@
 # @philiprehberger/diff-kit
 
+[![CI](https://github.com/philiprehberger/diff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/diff-kit/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/diff-kit.svg)](https://www.npmjs.com/package/@philiprehberger/diff-kit)
+[![License](https://img.shields.io/github/license/philiprehberger/diff-kit)](LICENSE)
+
 Object and array diffing with typed patches.
 
 ## Installation
