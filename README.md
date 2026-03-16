@@ -1,6 +1,6 @@
 # @philiprehberger/ts-diff-kit
 
-[![CI](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-diff-kit.svg)](https://www.npmjs.com/package/@philiprehberger/ts-diff-kit)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-diff-kit)](LICENSE)
 
@@ -35,6 +35,15 @@ hasChanges(a, b);   // true (fast)
 | `hasChanges(old, new)` | Quick boolean check |
 | `summarize(changes)` | Human-readable summary |
 | `diffArrays(old, new, { key })` | Diff arrays by identity key |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
