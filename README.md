@@ -1,21 +1,21 @@
-# @philiprehberger/diff-kit
+# @philiprehberger/ts-diff-kit
 
-[![CI](https://github.com/philiprehberger/diff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/diff-kit/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/diff-kit.svg)](https://www.npmjs.com/package/@philiprehberger/diff-kit)
-[![License](https://img.shields.io/github/license/philiprehberger/diff-kit)](LICENSE)
+[![CI](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-diff-kit.svg)](https://www.npmjs.com/package/@philiprehberger/ts-diff-kit)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-diff-kit)](LICENSE)
 
 Object and array diffing with typed patches.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/diff-kit
+npm install @philiprehberger/ts-diff-kit
 ```
 
 ## Usage
 
 ```ts
-import { diff, applyPatch, revertPatch, hasChanges, summarize } from '@philiprehberger/diff-kit';
+import { diff, applyPatch, revertPatch, hasChanges, summarize } from '@philiprehberger/ts-diff-kit';
 
 const changes = diff(oldUser, newUser);
 // [{ type: 'update', path: ['age'], oldValue: 30, newValue: 31 }]
