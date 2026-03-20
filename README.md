@@ -1,6 +1,6 @@
 # @philiprehberger/diff-kit
 
-[![CI](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-diff-kit/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/diff-kit.svg)](https://www.npmjs.com/package/@philiprehberger/diff-kit)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-diff-kit)](LICENSE)
 
